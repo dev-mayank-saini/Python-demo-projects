@@ -1,9 +1,8 @@
-# print("Welcome to Kaun Banega Crorepati (KBC).\nTo play the game user is required to enter the serial number of the question they want to answer.\n")
+print("Welcome to Kaun Banega Crorepati (KBC).\nTo play the game user is required to enter the serial number of the question they want to answer.\n")
 
-# userName = input("Enter your name: ")
-# userBankAccNo = input("Enter Your Bank Account Number: ")
+userName = input("Enter your name: ")
 
-# print(userName, " Enter the serial number of the question you want to answer. For your reference there are 12 questions.\n Each question is worth a certain amount, if you select the correct answer you will be able to answer the next question in the game.\n To see the prices of the 12 Question, mind the next prompt")
+print(userName, " Enter the serial number of the question you want to answer. For your reference there are 12 questions.\n Each question is worth a certain amount, if you select the correct answer you will be able to answer the next question in the game.\n To see the prices of the 12 Question, mind the next prompt")
 
 
     
@@ -21,9 +20,9 @@ for item1, item2 in zip(questionNo, prices):
     print(f"{item1} : {item2}")
 
 
-# pricesOfQuestions = input("To see the prices of Questions enter the string 'Yes' to ignore enter 'No'.")
+pricesOfQuestions = input("To see the prices of Questions enter the string 'Yes' to ignore enter 'No'.")
 
-# if pricesOfQuestions == "Yes" or pricesOfQuestions == 'Yes':
+if pricesOfQuestions == "Yes" or pricesOfQuestions == 'Yes':
 
 
 

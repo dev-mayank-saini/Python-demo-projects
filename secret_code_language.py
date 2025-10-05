@@ -1,3 +1,8 @@
+# This program can convert a word to an encrypted string and can also decode the same string.
+# It take the last letter of the word and attaches it to the start of the word.
+# Then it add random 3 letters on the start and end of the word making it encrypted.
+# when decoding the same, it reverses the process and prints the decrypted word.
+
 import random
 import string
 
